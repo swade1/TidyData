@@ -41,7 +41,7 @@ The result is a variable name that explains the following:
 
 ### Reading the tidy dataset table into R
 
-1. The output of run_analysis.R is included in a file named  `Week4tidydataset.table`.  
+1. The output of run_analysis.R is included in a file named  `Week4tidydataset.txt`.  
 
 2. Read this table into R with the following two commands at the RStudio console. 
 
