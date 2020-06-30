@@ -10,11 +10,11 @@
 #tidyverse includes dplyr for filtering
 library(tidyverse)
 
-# set the working environment (path to test and train directories)
-# For example, if test/ and train/ are in the UCI HAR Dataset/ directory, 
-# setwd("/path/to/UCI HAR Dataset")
-#setwd("/set/working/directory/")
-setwd("/Users/swade/Documents/Learning/Online/Coursera/Data Science Foundations using R/3 Getting and Cleaning Data/Week4/Final Project")
+# set the working environment (path to input files)
+# 
+#
+# setwd("/path/to/directory/containing/X_test.txt"), etc
+
 #read and combine test set columns
 X_test <- read.table("./X_test.txt")
 subject_test <- read.table("./subject_test.txt")
